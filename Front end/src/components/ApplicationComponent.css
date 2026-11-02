@@ -1,0 +1,71 @@
+.Application-component {
+    position: relative;
+    display: flex;
+    width: 50%;
+    min-height: 160px;
+    padding: 15px;
+
+    background: #ffffff75;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Linker content */
+.Application-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+/* Application tekst */
+.Application-message {
+    color: blue;
+    margin: 8px 0;
+}
+
+/* Accept / Deny */
+.Application-options {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.icon-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.icon-button:hover {
+    background: none;
+}
+
+.icon-button img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Rechtsboven member */
+.Application-member {
+    position: absolute;
+    width: 15%;
+    height: 35%;
+    margin-right: 3%;
+    top: 10px;
+    right: 10px;
+}
+
+.option-buttons{
+    width: 50%;
+    display: flex;
+
+    
+}
+
+.button-divider{
+    width: 40px;
+}

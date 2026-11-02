@@ -1,0 +1,152 @@
+.Rform-container{
+    width: 60%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Rinput-container{
+    width: 90%;
+    margin: 1px;
+    height: 25%;
+}
+
+input[type="email"] {
+    border-radius: 5px;
+    background: rgba(252, 252, 252, 0.871);
+    box-shadow: 0 4px 20px rgba(247, 247, 247, 0.952);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    color: black;
+    padding: 3px;
+    height: 60%;
+    width: 96%;
+    font-size: large;
+}
+
+input[type="password"] {
+    border-radius: 5px;
+    background: rgba(252, 252, 252, 0.871);
+    box-shadow: 0 4px 20px rgba(247, 247, 247, 0.952);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    color: black;
+    padding: 3px;
+    height: 60%;
+    width: 96%;
+    font-size: large;
+}
+
+input[type="tel"] {
+    border-radius: 5px;
+    background: rgba(252, 252, 252, 0.871);
+    box-shadow: 0 4px 20px rgba(247, 247, 247, 0.952);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    color: black;
+    padding: 3px;
+    height: 60%;
+    width: 96%;
+    font-size: large;
+}
+
+select{
+    border-radius: 5px;
+    background: rgba(252, 252, 252, 0.871);
+    box-shadow: 0 4px 20px rgba(247, 247, 247, 0.952);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    color: black;
+    padding: 3px;
+    height: 78%;
+    width: 98%;
+    font-size: large;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+}
+
+.Rform{
+    background: rgba(206, 204, 204, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(178, 179, 179, 0.6);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-square{
+    height: 75%;
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.Rform-titel{
+    font-size: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.Rform-subtitel{
+    margin-bottom: 3%;
+}
+
+.confirmbtr{
+    width: 60%;
+    margin-top: 30px;
+    height: 15%;
+    border: none;
+}
+.ConfirmPopup{
+    margin-top: 10%;
+}
+   
+
+.ConfirmPopup:hover{
+    border: none;
+    background-color: black;
+    color: white;
+}

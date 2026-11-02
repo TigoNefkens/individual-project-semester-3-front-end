@@ -1,0 +1,74 @@
+.square-selector{
+    height: 100px;
+    width: 90%;
+    max-height: 400px;
+    margin: 10px auto;
+    border-radius: 16px;
+    margin-bottom: 2%;
+    transform: translateZ(0);
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-container-selector{
+    height: 95%;
+    max-height: 95%;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bandname-selector{
+    font-weight: bold;
+    font-size: 10vh;
+    text-align: center;
+}
+
+
+.Band-content-selector{
+    height: 96%;
+    width: 100%;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.BandButtons-selector{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff75;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 2.8rem;
+    padding: 0 1.5rem;
+    min-width: 15%;
+    width: auto;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.35);
+}
+
+.BandButtons-selector:hover{
+    transform: translateY(-3px);
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.BandButtons-selector:active{
+    transform: translateY(-1px);
+}

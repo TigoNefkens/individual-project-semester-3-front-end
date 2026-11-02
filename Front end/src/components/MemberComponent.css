@@ -1,0 +1,16 @@
+#member-square{
+    width: 10%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    position: "relative";
+    flex-direction: column;
+}
+
+#crown{
+    width: 50%;
+    height: 60%;
+    margin-top: -15%;
+}

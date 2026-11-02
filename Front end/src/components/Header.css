@@ -1,0 +1,122 @@
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    width: 100%;
+    padding: 1rem 2rem;
+    background: rgba(250, 249, 246, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    border: 1px solid rgba(250, 249, 246, 0.3);
+  }
+  .profileImage{
+    width: 55%;
+    height: 10%;
+  }
+
+
+  .profileButton{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .button-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    margin-right: 5%;
+  }
+
+  .buttons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 2.8rem;
+    padding: 0 1.5rem;
+    min-width: 15%;
+    width: auto;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.35);
+  }
+
+  .buttons:hover {
+    transform: translateY(-3px);
+    background-color: white;
+   
+  }
+
+  .buttons:active {
+    transform: translateY(-1px);
+  }
+
+  .logo{
+    height: 120%;
+    width: auto;
+    margin-right: 2%;
+  }
+
+
+  .webname{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-right: auto;
+    color: #0dcdfc;
+    text-shadow: 1px 1px 3px darkblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  #logout{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 2.8rem;
+    padding: 0 1.5rem;
+    min-width: 15%;
+    width: auto;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.35);
+  }
+
+  #logout:hover{
+    transform: translateY(-3px);
+    border: none;
+    background-color: white;
+  }
+
+  #logout:active {
+    transform: translateY(-1px);
+  }

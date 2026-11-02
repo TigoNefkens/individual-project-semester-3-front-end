@@ -1,0 +1,8 @@
+.dropdownmenu:focus{
+    outline:none;
+}
+
+.dropdownmenu{
+    border: none;
+    margin-top: -8%;
+}

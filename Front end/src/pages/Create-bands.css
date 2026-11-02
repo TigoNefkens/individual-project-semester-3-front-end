@@ -1,0 +1,109 @@
+.app-background {
+  background-image: url('../assets/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ConfirmPopup{
+  margin-top: 10%;
+}
+   
+.create-band-container{
+  background: rgba(206, 204, 204, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(178, 179, 179, 0.6);
+  backdrop-filter: blur(3.7px);
+  -webkit-backdrop-filter: blur(3.7px);
+  border: 1px solid rgba(255, 255, 255, 0.39);
+  height: 60vh;
+  width: 50%;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bandName{
+  width: 80%;
+  height: 100%;
+  font-size: medium
+}
+
+#placeOfOperations{
+  width: 80%;
+  height: 100%;
+  font-size: medium
+}
+
+#genre{
+  width: 80%;
+  height: 100%;
+
+  font-size: medium
+}
+
+#description{
+  width: 80%;
+  height: 100%;
+  font-size: medium
+}
+
+.form-group{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  margin: 2vh;
+}
+
+.band-form{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+  #confirmbtrband{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 2.8rem;
+    padding: 0 1.5rem;
+    min-width: 15%;
+    width: auto;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+    width: 30%;
+    height: 15%;
+    margin-top: 5%;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.35);
+  }
+
+  #confirmbtrband:hover{
+    transform: translateY(-3px);
+    border: none;
+    background-color: white;
+    color: grey;
+  }
+
+  #confirmbtrband:active {
+    transform: translateY(-1px);
+  }

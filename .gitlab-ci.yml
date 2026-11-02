@@ -1,0 +1,38 @@
+image: node:18
+before_script:
+  - git config --global --add safe.directory "C:/Gitlab-Runner/builds/2pyV-J2Rj/0/I559176/individual-project-semester-3-front-end"
+stages:
+  - build
+  - e2e_tests
+  - dockerhub_image_push
+build:
+  stage: build
+  script:
+    - cd "Front end"
+    - npm ci
+    - npm run build
+e2e_tests:
+  stage: e2e_tests
+  tags:
+    - shell
+  script:
+    - cd "Front end"
+    - npm ci
+    
+    - npx playwright install --with-deps
+    
+    - npm run build
+    
+    - npx playwright test
+dockerhub_image_push:
+  stage: dockerhub_image_push
+  image: docker:24.0.5
+  services:
+    - docker:dind
+  variables:
+    DOCKER_DRIVER: overlay2
+  before_script:
+    - echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
+  script:
+    - docker build -t kisatigo/victorious-frontend:latest "./Front end"
+    - docker push kisatigo/victorious-frontend:latest

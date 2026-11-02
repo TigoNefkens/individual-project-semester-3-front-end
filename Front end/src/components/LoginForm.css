@@ -1,0 +1,98 @@
+.form-container{
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Lform{
+    display: flex;
+    flex-direction: column
+}
+
+.input-container{
+    background: rgba(206, 204, 204, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(178, 179, 179, 0.6);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    width: 40vw;
+    height: 10vh;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    background: rgba(252, 252, 252, 0.871);
+    box-shadow: 0 4px 20px rgba(247, 247, 247, 0.952);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    color: black;
+    padding: 3px;
+    height: 60%;
+    width: 96%;
+    font-size: large;
+}
+
+input[type="password"] {
+    border-radius: 5px;
+    background: rgba(252, 252, 252, 0.871);
+    box-shadow: 0 4px 20px rgba(247, 247, 247, 0.952);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    color: black;
+    padding: 3px;
+    height: 60%;
+    width: 96%;
+    font-size: large;
+}
+
+
+.confirmbt{
+    height: 20%;
+    border: 0cap;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.form-titel{
+    font-size: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.form-subtitel{
+    margin-bottom: 3%;
+}
+
+input:focus {
+    box-shadow: 0 4px 20px rgba(126, 157, 202, 0.952);
+}
+
+.confirmbtr{
+    width: 60%;
+    margin-top: 30px;
+    height: 15%;
+    border: none;
+}
+
+.ConfirmPopup{
+    margin-top: 10%;
+}
+
+.ConfirmPopup:hover{
+    border: none;
+    background-color: black;
+    color: white;
+}
